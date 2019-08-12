@@ -1,0 +1,17 @@
+[[devtester-grails-openshift]]
+== Hands-on Groovy Grails with Openshift
+
+[[lab-exercises-table-of-contents]]
+=== Lab Exercises Table of Contents
+
+* Lab 0. link:0-Setting-Up-Tools.adoc[Setting Up Tools]
+* Lab 1. link:1-Create-New-Project.adoc[Creating Base Application]
+* Lab 2. link:2-Create-MVC.adoc[Run application in Full-Stack]
+* Lab 3. link:3-Design-Data-Layer.adoc[Design Data Layer]
+* Lab 4. link:4-Design-Web-Layer.adoc[Design Web Layer]
+* Lab 5. link:5-Design-Logic-Layer.adoc[Design Logic Layer - Groovy Basics]
+* Lab 6. link:6-Manage-Data-With-GORM.adoc[Manage Data with GORM]
+* Lab 7. link:7-Finishing-The-Application.adoc[Finishing The Application]
+* Lab 8. link:8-Run-Application-Within-Docker.adoc[Run Application Within Docker Containers]
+* Lab 9. link:9-Deploy-Application-To-OpenShift.adoc[Deploy Application to OpenShift]
+* Lab 10. link:10-Next-Steps.adoc[Next Steps] (TODO)
