@@ -16,7 +16,7 @@ In this Lab we will create a webhook.
 - Select `Settings` -> `Webhooks`
 - Just add the url that is `http://your-jenkins-url/github-webhook/`
 
-image::images/webhooks.png[image]
+image::images/webhook.png[image]
 
 - For the other stuff we already configured the pipeline to know about our webhook.
 - Feel free to make a push in your repo and notice that jenkins will trigger a new build.
