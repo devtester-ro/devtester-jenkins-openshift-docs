@@ -9,8 +9,6 @@ After completing this section, you should be able to understand:
 
 * Why do we use this tools.
 
-* What are the most used tools for CI/CD.
-
 *Acronyms - and what is "Continuous integration" / "Continuous delivery" / "Continuous deployment"*
 
 * Continuous integration:
@@ -25,7 +23,7 @@ After completing this section, you should be able to understand:
 
 *How the practices relate to each other*
 
-image::images/ci-cd.PNG[image]
+image::images/ci-cd.png[image]
 
 1.  *Continuous Integration:*
 
