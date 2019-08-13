@@ -1,0 +1,52 @@
+[[pipeline-in-jenkins]]
+== Pipelines In Jenkins
+
+In this Lab we will create a pipeline script.
+
+=== Step 1: Pipeline Script
+
+[source,groovy]
+----
+node {
+    def mvnHome
+    stage('Preparation') {
+        // Get some grads code from a GitHub repository
+        git 'https://github.com/devtester-ro/devtester-grads.git'
+        // Get the Maven tool.
+        // ** NOTE: This 'M3' Maven tool must be configured
+        // **       in the global configuration.
+        mvnHome = tool 'M3'
+
+        // Set JDK env variable and add it to path
+        env.JAVA_HOME = "${tool 'jdk-8'}"
+        env.PATH = "${env.JAVA_HOME}/bin:${env.PATH}"
+
+    }
+    stage('Build') {
+        sh "'${mvnHome}/bin/mvn' clean install -DskipTests"
+    }
+
+    stage('Run Application') {
+        sh "'${mvnHome}/bin/mvn' spring-boot:run &"
+        sleep(30) //seconds not milliseconds like IntelliJ states
+    }
+
+    stage('Run Automation') {
+        try {
+            sh "'${mvnHome}/bin/mvn' test"
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: "\\output\\", reportFiles: 'DevTester-grads.html', reportName: 'HTML Test Report', reportTitles: ''])
+        } catch (all) {
+            publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: "\\output\\", reportFiles: 'DevTester-grads.html', reportName: 'HTML Test Report', reportTitles: ''])
+        }
+    }
+}
+----
+
+=== Step 2: Why Pipeline Script
+
+- Instead of having all your project logic within jenkins is more useful to place it within your code and just specify to jenkins where is this file.
+- Lets take a look at the `OpenShift Sample` freestyle project and see how pipeline can simplify stuff using `Pipeline Syntax`
+
+*Congrats you have a project that is automated!*
+
+link:7-Configure-Webhook.adoc[Next Lab: Configure Webhook] | link:0-Readme.adoc[Table Of Contents]

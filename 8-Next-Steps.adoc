@@ -1,0 +1,22 @@
+[[Next Steps]]
+== Next Steps
+
+What are the next steps? didn't I learned enough?
+
+=== Step 1: Plugins
+
+- Even if this jenkins instance has tones of plugins installed by default for sure you will come across times when you need others
+- Plugins url -> https://plugins.jenkins.io/
+
+
+=== Step 2: Pipeline
+
+- We only scratch the surface of `Pipeline`
+- Pipeline ulr -> https://jenkins.io/doc/book/pipeline/
+
+=== Step 3: Jobs
+
+- As you seen we created a job manually only the pipeline part was automated
+- Udemy - https://www.udemy.com/jenkins-from-zero-to-hero/
+
+*This is it - Thanks!*

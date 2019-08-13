@@ -1,0 +1,26 @@
+[[configure-webhook]]
+== Configure Webhook
+
+In this Lab we will create a webhook.
+
+=== Step 1: Webhook?
+
+- In order to notify Jenkins that you or your colleagues have made some code change we need to add a notification url within our project
+
+*Note:* for this demo we will use GitHub but all webhooks will configure the same regardless that you are using bitbucket or anything else.
+
+
+=== Step 2: Open GitHub
+
+- Select your desired project
+- Select `Settings` -> `Webhooks`
+- Just add the url that is `http://your-jenkins-url/github-webhook/`
+
+image::images/webhooks.png[image]
+
+- For the other stuff we already configured the pipeline to know about our webhook.
+- Feel free to make a push in your repo and notice that jenkins will trigger a new build.
+
+*Congrats you have a project that is automated!*
+
+link:7-Configure-Webhook.adoc[Next Lab: Configure Webhook] | link:0-Readme.adoc[Table Of Contents]

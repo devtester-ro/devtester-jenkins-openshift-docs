@@ -1,0 +1,28 @@
+[[jenkins-in-openshift]]
+== Jenkins In OpenShift
+
+In this Lab we will have an Jenkins up and running.
+
+*Note* - from here on we are timebound for 60 minutes so we must make sure that everything works as good as possible.
+
+=== Step 1: Open a new instance of KataCoda
+
+- Browse to -> https://www.katacoda.com/openshift/courses/playgrounds/openshift37
+- Create a new project -> `jenkins-demo`
+- Instead of selecting a predefined app from the catalog -> `Deploy Image`
+- Tick the `Image Name` -> input -> `openshift/jenkins-2-centos7`
+- Now just `Deploy`
+
+image::images/deploy-jenkins.png[image]
+
+- After the pod is running we need to create an `route`
+
+image::images/running-vs-deploying.png[image]
+
+*Note* - there will be some issues caused by KataCoda for exposing routes but we will manage them.
+
+image::images/jenkins.png[image]
+
+*Congrats we all have deploy a jenkins instance!*
+
+link:2-OpenShift.adoc[Next Lab: OpenShift] | link:0-Readme.adoc[Table Of Contents]
