@@ -4,7 +4,7 @@
 [[lab-exercises-table-of-contents]]
 === Lab Exercises Table of Contents
 
-* Lab 0. link:0-Continuous-Delivery-Tools.adoc[CI/CD Tools]
+* Lab 0. link:0-Continuous-Work.adoc[CI/CD]
 * Lab 1. link:1-Base-Project-Presentation.adoc[Basic Project]
 * Lab 2. link:2-OpenShift.adoc[OpenShift Basics]
 * Lab 3. link:3-Jenkins-In-OpenShift.adoc[Jenkins in OpenShift]
