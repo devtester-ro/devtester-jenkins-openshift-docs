@@ -11,7 +11,7 @@
 * Lab 4. link:4-Configure-Jenkins.adoc[Configure Jenkins]
 * Lab 5. link:5-Create-First-Job.adoc[Create First Job in Jenkins]
 * Lab 6. link:6-Install-Plugins.adoc[Install Plugins]
-* Lab 7. link:7-Pipeline-In-Jenkins.adoc[Jenkins-Pipeline]
+* Lab 7. link:7-Pipeline-In-Jenkins.adoc[Jenkins Pipeline]
 * Lab 8. link:8-Configure-Webhook.adoc[Configure Webhook for Basic Project]
 * Lab 9. link:9-Run-Final-Example.adoc[Run Final Example]
 * Lab 10. link:10-Next-Steps.adoc[Next Steps] (TODO)
