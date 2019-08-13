@@ -39,4 +39,4 @@ image::images/apache-started.png[image]
 
 *Congrats we can now move on to deploy a jenkins instance!*
 
-link:2-Jenkins-In-OpenShift.adoc[Next Lab: Jenkins In OpenShift] | link:0-Readme.adoc[Table Of Contents]
+link:3-Jenkins-In-OpenShift.adoc[Next Lab: Jenkins In OpenShift] | link:0-Readme.adoc[Table Of Contents]
