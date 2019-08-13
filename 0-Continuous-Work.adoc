@@ -70,4 +70,4 @@ image::images/ci-cd.png[image]
 - Customers see a continuous stream of improvements, and quality increases every day, instead of every month, quarter or year.
 
 
-link:1-Base-Project-Presentation.adoc[Next Lab: Base Project] | link:0-Readme.adoc[Table Of Contents]
+link:1-Basic-Project.adoc[Next Lab: Base Project] | link:0-Readme.adoc[Table Of Contents]
