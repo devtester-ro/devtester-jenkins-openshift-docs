@@ -25,7 +25,7 @@ After completing this section, you should be able to understand:
 
 image::images/ci-cd.png[image]
 
-1.  *Continuous Integration:*
+1. *Continuous Integration:*
 
 *What you need (cost)*
 
@@ -41,7 +41,7 @@ image::images/ci-cd.png[image]
 - Testing costs are reduced drastically – your CI server can run hundreds of tests in the matter of seconds.
 - Your QA team spend less time testing and can focus on significant improvements to the quality culture.
 
-2.  *Continuous Delivery:*
+2. *Continuous Delivery:*
 
 *What you need (cost)*
 
@@ -55,7 +55,7 @@ image::images/ci-cd.png[image]
 - You can release more often, thus accelerating the feedback loop with your customers.
 - There is much less pressure on decisions for small changes, hence encouraging iterating faster.
 
-3.  *Continuous Delivery:*
+3. *Continuous Delivery:*
 
 *What you need (cost)*
 
