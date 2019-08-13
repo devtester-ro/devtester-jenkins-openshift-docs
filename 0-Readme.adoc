@@ -1,5 +1,5 @@
 [[devtester-jenkins-docs]]
-== Hands-on Jenkins with Openshift
+== Hands-on Jenkins with OpenShift
 
 [[lab-exercises-table-of-contents]]
 === Lab Exercises Table of Contents
